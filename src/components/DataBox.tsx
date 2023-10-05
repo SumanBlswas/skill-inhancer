@@ -55,7 +55,7 @@ const DataBox = () => {
           borderRadius={"10px"}
           justify={"space-between"}
         >
-          <Flex placeItems={"center"} gap={3}>
+          <Flex placeItems={"center"} gap={3} cursor={"pointer"}>
             <Text p={2} borderRadius={"full"} color={"white"} bg={"red.500"}>
               <PiStudentFill />
             </Text>

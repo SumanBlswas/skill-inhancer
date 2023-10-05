@@ -97,11 +97,15 @@ const CourseBox = () => {
             <Text fontSize={"2xl"}>
               <FcReading />
             </Text>
-            <Text borderBottom={"2px"} borderBottomColor={"blue"}>
+            <Text
+              borderBottom={"2px"}
+              borderBottomColor={"blue"}
+              cursor={"pointer"}
+            >
               Courses
             </Text>
           </Flex>
-          <Flex gap={1} placeItems={"center"}>
+          <Flex gap={1} placeItems={"center"} cursor={"pointer"}>
             <Text fontSize={"2xl"}>
               <FcServices />
             </Text>
@@ -116,6 +120,7 @@ const CourseBox = () => {
             borderRadius={"6px"}
             fontWeight={"semibold"}
             flexDir={"column"}
+            cursor={"pointer"}
           >
             <Text fontSize={"small"}>Subject</Text>
             <Text fontSize={"x-small"}>What do you want to study?</Text>
@@ -129,6 +134,7 @@ const CourseBox = () => {
             justify={"space-between"}
             bg={"blackAlpha.100"}
             placeItems={"center"}
+            cursor={"pointer"}
           >
             <Flex flexDir={"column"}>
               <Text fontSize={"small"}>Where</Text>
