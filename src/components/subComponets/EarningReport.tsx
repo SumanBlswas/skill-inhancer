@@ -1,4 +1,4 @@
-import { Box, Divider, Flex, Text } from "@chakra-ui/react";
+import { Divider, Flex, Text } from "@chakra-ui/react";
 import { PiStudentFill } from "react-icons/pi";
 import { AiFillHeart } from "react-icons/ai";
 import { FaUserFriends } from "react-icons/fa";
